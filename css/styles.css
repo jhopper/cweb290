@@ -1,0 +1,87 @@
+@charset "utf-8";
+/*CSS Document*/
+
+*, *:before, *:after {
+	-moz-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-webkit-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+}
+body {
+	/* fallback */ 
+	background-color: #1a82f7;
+	background: url(../images/linear_bg_2.png);
+	background-repeat: repeat-x; /* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727)); /* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #2F2727, #1a82f7); /* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #2F2727, #1a82f7); /* IE 10 */ 
+	background: -ms-linear-gradient(top, #2F2727, #1a82f7); /* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #2F2727, #1a82f7);*/
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 90%;
+	color:#fff;
+}
+.column {
+	float: left;
+	margin-left: 5%;
+}
+ 
+.column:first-child {
+	margin-left: 0;
+}
+.column.full {
+	width: 100%;
+	border: 1px dotted black;
+	padding:1em;
+}
+.column.two-thirds {
+	width: 65%;
+	border: 1px groove black;
+	padding:1em;
+}
+.column.half {
+	width: 47.5%;
+	border: 1px dashed black;
+	padding:1em;
+}
+ 
+.column.one-third {
+	width: 30%;
+	border: 1px solid black;
+	padding:1em;
+}
+ 
+.column.one-fourth {
+	width: 21.25%;
+	border: 1px inset black;
+	padding:1em;
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+ 
+.clearfix:after {
+	clear: both;
+}
+ 
+.clearfix {
+	*zoom: 1;
+}
+.row {
+	overflow: hidden;
+}
+@media screen and (max-width: 640px) {
+.column.full,
+.column.two-thirds,
+.column.half,
+.column.one-third,
+.column.one-fourth {
+	margin: 0;
+	width: 100%;
+}
+}
