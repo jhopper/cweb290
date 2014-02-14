@@ -1,0 +1,45 @@
+/* css document */
+/* zero out styles */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td, hr
+{
+	margin: 0;
+	border-style: none;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-collapse: collapse;
+	padding: 0;
+	font-size: 100%;
+	line-height: 1;
+	outline: 0;
+	text-align: left;
+	text-indent: 0;
+	vertical-align: baseline;
+	background: none;
+}
+
+html, body, div, applet, object, iframe, address, blockquote, pre, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, th, td { position: relative; }
+
+html
+{
+	font-size: 62.5%;
+	/* reset font to 10px starting point */
+}
+
+a img, :link img, :visited img { border: 0; }
+
+/* remember to define focus styles! */
+:focus { outline: 0; }
+ol, ul { list-style: none; }
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/* end zero out styles */
